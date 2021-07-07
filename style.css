@@ -76,26 +76,23 @@ nav {
   overflow: hidden;
   position: fixed;
   bottom: 0;
+  height: 60px;
   width: 100%;
   
 }
 
 #navbar-bottom-left li {
   background-color: #f2f2f2;
-  float: left;
-  margin: 5px;
-  padding: 5px;
-  width: auto;
-  
+  float: inline-start;
+  margin: 23px;
+    
 }
 
 #navbar-bottom-right li {
   background-color: #f2f2f2;
   float: inline-end;
-  position: relative;
-  margin: 5px;
-  padding: 5px;
-  width: auto;
+  margin: 23px;
+  
 }
 
 li :hover {
@@ -126,5 +123,37 @@ h1 {
 }
 
 
+.combinedsearch .search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
 
+.combinedsearch .searchTerm {
+  width: 100%;
+  border: 1px solid gray;
+  border-left: none;
+  padding: 5px;
+  border-radius: 0 15px 15px 0;
+  outline: none;
+  
+}
+  
+.combinedsearch .searchButton {
+  width: 40px;
+  height: 50px;
+  border: 1px solid grey;
+  border-right: none;
+  background: none;
+  text-align: center;
+  border-radius: 15px 0 0 15px;
+  font-size: 20px;
+}
 
+.searchButton {
+  color:rgb(181, 180, 182);
+}
+
+.combinedsearch :hover {
+  border-style:outset;
+}

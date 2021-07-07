@@ -2,7 +2,7 @@
     <head>
         <link rel="stylesheet" href="style.css" />
         <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
-
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" crossorigin="anonymous" />
 
         <nav id="navbar" class="navbar-top">
             <div id="navbar-left" class="navbar-top">
@@ -23,12 +23,15 @@
     </head>
     <body>
         <h1>
-            <img class="bodycenter" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-            
-            <div id="searchbar">
-            <span class="material-icons search-e8b6">search e8b6</span> 
-            <input type='text' placeholder="" id='search-text-input'/></div>
-            
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            <div class="combinedsearch">
+                <div class="search">
+                    <button type="submit" class="searchButton">
+                        <i class="fas fa-search"></i>
+                    </button>
+                <input type="text" class="searchTerm" placeholder="">
+                </div>
+            </div>
             <button id="search">Google Search</button>
             <button id="lucky">I'm Feeling Lucky</button>
         </h1>  
