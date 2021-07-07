@@ -36,7 +36,7 @@ a {
   display: inline;
   float: left;
   margin: 5px;
-  padding: 5px;
+  padding: 15px;
   width: 40px;
 }
 
@@ -44,7 +44,7 @@ a {
 #navbar-right li {
   float: inline-end;
   margin: 5px;
-  padding: 5px;
+  padding: 15px;
   width: auto;
 }
 
@@ -103,21 +103,22 @@ li :hover {
 h1 {
   position: fixed;
   top: 27%;
-  left: 37%;
+  left: 40%;
 }
 
 
 .combinedsearch {
   position: fixed;
-  width: 70%;
+  top: 43%;
+  left: 31%;
+  width: 50%;
   max-width: 600px;
-  top: 42%;
-  left: 30%;
+  min-width: 400px;
   
 }
 
 .combinedsearch .search {
-  position: relative;
+  position: flex;
   display: flex;
 }
 
@@ -145,7 +146,7 @@ h1 {
 }
 
 .searchButton {
-  color:rgb(181, 180, 182);
+  color:rgba(181, 191, 190, 0.8);
 }
 
 .combinedsearch .search:hover {
@@ -155,8 +156,9 @@ h1 {
 
 .search-lucky {
   position: fixed;
-  top: 50%;
-  left: 37%;
+  top: 51%;
+  left: 40%;
+  
 }
 
 #search,#lucky {
