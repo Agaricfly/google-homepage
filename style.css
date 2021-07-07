@@ -106,54 +106,85 @@ h1 {
   left: 37%;
 }
 
-#search,#lucky {
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    font-family: arial,sans-serif;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
+
+.combinedsearch {
+  position: fixed;
+  width: 70%;
+  max-width: 600px;
+  top: 42%;
+  left: 30%;
+  
 }
 
-
 .combinedsearch .search {
-  width: 100%;
   position: relative;
   display: flex;
 }
 
 .combinedsearch .searchTerm {
   width: 100%;
-  border: 1px solid gray;
+  border: 1px solid #E5E5E5;
   border-left: none;
   padding: 5px;
-  border-radius: 0 15px 15px 0;
+  border-radius: 0 35px 35px 0;
   outline: none;
+  font-size: 18px;
   
 }
   
 .combinedsearch .searchButton {
   width: 40px;
   height: 50px;
-  border: 1px solid grey;
+  border: 1px solid #E5E5E5;
   border-right: none;
   background: none;
   text-align: center;
-  border-radius: 15px 0 0 15px;
-  font-size: 20px;
+  border-radius: 35px 0 0 35px;
+  font-size: 17px;
+  padding-left: 15px;
 }
 
 .searchButton {
   color:rgb(181, 180, 182);
 }
 
-.combinedsearch :hover {
-  border-style:outset;
+.combinedsearch .search:hover {
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 35px 35px 35px 35px;
+}
+
+.search-lucky {
+  position: fixed;
+  top: 50%;
+  left: 37%;
+}
+
+#search,#lucky {
+  position:flex;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#search:hover {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px 4px 4px 4px;
+  border-color: #E5E5E5;
+
+}
+
+#lucky:hover {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px 4px 4px 4px;
+  border-color: #E5E5E5;
 }
