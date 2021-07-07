@@ -1,15 +1,35 @@
 * {
   background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgba(0,0,0,0.87);
+  font-family: arial, sans-serif;
   text-decoration: none;
+     
 }
 
 ul {
   list-style-type: none;
+  color-adjust:inherit;
   margin: 0;
   padding: 0;
-  
+   
+}
+
+a {
+  color: #70757a;
+  font-size: 14px;
+  background-color: #f2f2f2;
+}
+
+.navtopli {
+  color: #222222;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+.navtopre {
+  color: black;
+  font-size: 13px;
+  line-height: 24px;
+  background-color: transparent;
 }
 
 #navbar-left li {
@@ -20,11 +40,9 @@ ul {
   width: 40px;
 }
 
+
 #navbar-right li {
   float: inline-end;
-  font-family: arial, sans-serif;
-  font-size: 13px;
-  line-height: 24px;
   margin: 5px;
   padding: 5px;
   width: auto;
@@ -45,19 +63,45 @@ ul {
   width: 10px;
   text-decoration: none;
   font-style:initial;
+  color: #5f6368;
+  background-color: transparent;
   
+}
 
+nav {
+  background-color: #f2f2f2;
+}
+
+#navbar-footer {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   
+}
+
+#navbar-bottom-left li {
+  background-color: #f2f2f2;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  width: auto;
+  
+}
+
+#navbar-bottom-right li {
+  background-color: #f2f2f2;
+  float: inline-end;
+  position: relative;
+  margin: 5px;
+  padding: 5px;
+  width: auto;
+}
+
+li :hover {
+  text-decoration: underline;
 
 }
 
 
 
-
-
-
-
-.footer {
-  background-color: #db2d2d;
-}
- 
